@@ -1,0 +1,27 @@
+print('RECONPENSADOR DE ESTUDOS')
+print('Tempo estudado = $')
+por = 2.75
+math = 2.0
+geo = 1.75
+his = 1.25
+cie = 1.50
+ing = 2.50
+mat = input('Digite o numero da matéria: 1 Portugues, 2 Matematica, 3 Geografia, 4 História e 5 Ciencias 6 Ingles: ')
+if mat == '1':
+    time = int(input('Quanto tempo você estudou (em minutos): '))
+    print('Você recebeu pelo seus estudos R$',time * por )
+elif mat == '2':
+    time = int(input('Quanto tempo você estudou (em minutos): '))
+    print('Você recebeu pelo seus estudos R$', time * math)
+elif mat == '3':
+    time = int(input('Quanto tempo você estudou (em minutos): '))
+    print('Você recebeu pelo seus estudos R$', time * geo)
+elif mat == '4':
+    time = int(input('Quanto tempo você estudou (em minutos): '))
+    print('Você recebeu pelo seus estudos R$', time * his)
+elif mat == '5':
+    time = int(input('Quanto tempo você estudou (em minutos): '))
+    print('Você recebeu pelo seus estudos R$', time * cie)
+elif mat == '6':
+    time = int(input('Quanto tempo você estudou (em minutos): '))
+    print('Você recebeu pelo seus estudos R$', time * ing)
